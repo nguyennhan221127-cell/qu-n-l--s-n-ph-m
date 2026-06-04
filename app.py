@@ -239,7 +239,6 @@ def update_product():
     conn.close()
 
     return redirect("/dashboard")
-
 @app.route("/delete_product/<int:id>")
 def delete_product(id):
 
